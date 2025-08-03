@@ -1,0 +1,9 @@
+jwt:
+  secret: myJwtSecretKeyChangeMe
+  expirationMs: 3600000
+
+spring:
+  security:
+    user:
+      name: user
+      password: password
