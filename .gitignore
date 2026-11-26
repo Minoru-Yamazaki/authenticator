@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### RSA keys — never commit real private keys ###
+src/main/resources/keys/private.pem
+src/main/resources/keys/public.pem
+.kiro/
+authenticator.postman_collection.json
+GenerateKeys.class
